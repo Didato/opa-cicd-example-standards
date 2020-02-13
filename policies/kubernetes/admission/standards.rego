@@ -19,12 +19,12 @@ memoryrequest {
 }
 
 default cpulimits = false
-cpurequest {
+cpulimits {
     req := input.spec.template.spec.containers[_].resources.limits.cpu
 }
 
 default memorylimits = false
-memoryrequest {
+memorylimits {
     req := input.spec.template.spec.containers[_].resources.limits.memory
 }
 
