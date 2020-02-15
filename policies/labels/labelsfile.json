@@ -1,0 +1,10 @@
+{
+    "tier" : {
+        "requiredlabels" : [
+            "frontend",
+            "backend",
+            "database"
+        ]
+    }
+
+}
